@@ -1,57 +1,64 @@
-ml_project
-==============================
+# Data Science Project Setup with CookieCutter and DVC
 
-this is a learning project of cookiecutter and dvc
+## 📌 Objective
+The objective of this assignment is to understand the setup and usage of CookieCutter for structuring a data science project and DVC (Data Version Control) for managing data and model versioning efficiently.
 
-Project Organization
-------------
+---
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like make data or make train
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short - delimited description, e.g.
-    │                         1.0-jqp-initial-data-exploration.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with pip freeze > requirements.txt
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── _init_.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+## ✅ Work Done
 
+### 📂 1. Setting Up CookieCutter
+- Installed CookieCutter using pip.
+- Used CookieCutter to create a new project structure from the `cookiecutter-data-science` template.
+- Navigated into the created project directory and explored its structure.
 
---------
+### 🔗 2. Setting Up Git Repository
+- Initialized a Git repository in the project folder.
+- Committed the initial files and project structure.
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+### 📊 3. Setting Up DVC
+- Installed DVC using pip.
+- Initialized DVC in the project directory.
+- Added a sample dataset (`data/sample_data.csv`) and tracked it using DVC.
+- Committed DVC changes to Git.
+
+### 🌍 4. GitHub Repository
+- Created a GitHub repository for the project.
+- Pushed the project structure and tracked dataset to GitHub.
+
+---
+
+## 🔗 GitHub Repository Link
+[Provide the GitHub repository link here]
+
+---
+
+## 📜 How to Use This Project
+1. Clone the repository:
+   ```sh
+   git clone [your-repository-link]
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd your-project-name
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Set up DVC:
+   ```sh
+   dvc pull
+   ```
+5. Start working on your data science project!
+
+---
+
+## 🛠️ Technologies Used
+- **Python**
+- **CookieCutter**
+- **DVC (Data Version Control)**
+- **Git & GitHub**
+
+🚀 Happy Coding! 🎯
+
